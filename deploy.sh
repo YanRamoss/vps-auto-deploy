@@ -6,4 +6,8 @@ cd $PUBLIC_DIRECTORY
 
 git pull origin main
 
-docker-compose up -d --build
+docker-compose build --no-cache
+
+sleep 10
+
+docker-compose up -d
