@@ -8,6 +8,6 @@ git pull origin main
 
 docker-compose build --no-cache
 
-sleep 10
+sleep 60
 
 docker-compose up -d
